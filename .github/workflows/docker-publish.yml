@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        triple: ['aarch64-rpi4-linux-gnu', 'aarch64-rpi3-linux-gnu', 'armv6-rpi-linux-gnueabihf', 'armv8-rpi3-linux-gnueabihf', 'arm-pico-eabi']
+        triple: ['aarch64-rpi4-linux-gnu', 'aarch64-rpi3-linux-gnu', 'armv8-rpi4-linux-gnueabihf', 'armv8-rpi3-linux-gnueabihf', 'armv7-rpi2-linux-gnueabihf', 'arm-pico-eabi']
 
     permissions:
       contents: write
